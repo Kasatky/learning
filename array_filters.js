@@ -10,4 +10,11 @@ let foundCat = cats.find(
     }
 )
 
-console.info(foundCat)
+let filterCat = cats.filter(
+    function (dog){
+        return dog.name == 'Pushok'
+    }
+)
+
+//console.info(foundCat)
+console.info(filterCat)
