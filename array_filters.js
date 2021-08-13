@@ -1,1 +1,4 @@
-let cats = []
+let cats = [
+    { name: 'Rizhik' },
+    { name: 'Pushok' }
+]
