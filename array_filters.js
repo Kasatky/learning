@@ -1,7 +1,9 @@
 let cats = [
     { name: 'Rizhik',colour: 'foxy' },
     { name: 'Pushok', colour: 'black' },
-    { name: 'Snezhok', colour: 'black' }
+    { name: 'Snezhok', colour: 'black' },
+    { name: 'Snezhok', colour: 'black' },
+    { name: 'Snezhok', colour: 'black' },
 ]
 
 let foundCat = cats.find(
@@ -12,9 +14,9 @@ let foundCat = cats.find(
 
 let filterCat = cats.filter(
     function (dog){
-        return dog.name == 'Pushok'
+        return dog.colour !== 'black'
     }
 )
 
 //console.info(foundCat)
-console.info(filterCat)
+console.info(filterCat.length)
