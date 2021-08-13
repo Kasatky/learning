@@ -2,7 +2,7 @@ let foo = (something, whatever, nothing='') => {
   return 'Hello '+whatever+'!'
 }
 
-let result = foo
+let result = foo('','World')
 
 
 // экспортировать "Hello World!"

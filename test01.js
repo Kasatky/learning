@@ -4,7 +4,7 @@ let foo = (number) => {
 
 }
 
-let result = foo
+let result = foo(4)
 
 
 // экспортировать число 5

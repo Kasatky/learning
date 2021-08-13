@@ -1,5 +1,7 @@
+let rand = require ('./utils')
+let b = rand(1,100)
 let foo = () => {
-  return rand(1,100) // редактируем где угодно, используем переменные
+  return b // редактируем где угодно, используем переменные
 }
 
 let result = foo

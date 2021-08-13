@@ -8,8 +8,8 @@ let foo = (arg1, arg2) => {
     }
 }
 
-let result = foo
+let result = foo(null,'55')
 
 
-// вывести на экран "test 3 passed"
+// вывести на экран "да"
 module.exports = result

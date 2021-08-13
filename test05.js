@@ -1,3 +1,5 @@
+let rand = require ('./utils')
+
 let foo = () => {
   return rand(1,100) // редактируем где угодно
 }
